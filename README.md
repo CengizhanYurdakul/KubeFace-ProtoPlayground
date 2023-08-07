@@ -36,3 +36,6 @@ minikube dashboard
 ## Modifiable Parameters
 - [replicas:](https://github.com/CengizhanYurdakul/KubeFace-ProtoPlayground/blob/cfbfabbdea1ecabb7aa24e1344224569e2323c36/kubernetes/detector-api.yaml#L6) Parameter that build a specific number of pods (Face Detector Service)
 - [cpus and memory:](https://github.com/CengizhanYurdakul/KubeFace-ProtoPlayground/blob/72d6adda90a9e5392cc677107ed6faf0c77d0fce/run.sh#L5) Information on how much cpu and memory the cluster will use when running
+
+## References
+- https://github.com/hukkelas/DSFD-Pytorch-Inference
