@@ -1,0 +1,5 @@
+git+https://github.com/hukkelas/DSFD-Pytorch-Inference.git
+grpcio
+grpcio-tools
+opencv-python
+loguru

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+message InputImage {
+   bytes byteImage = 1;
+   int32 width = 2;
+   int32 height = 3;
+}
+
+message DetectionResults {
+   bytes boundingBoxes = 5;
+   bytes landmarks = 6;
+   int32 numFaces = 7;
+}
+
+service DetectionService {
+   rpc detectFace (InputImage) returns (DetectionResults) {}
+}
